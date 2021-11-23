@@ -1,9 +1,9 @@
 #!/usr/local/bin/python3
 
-cracked_hashes = open("/Users/bortiz/Documents/Projects/cerner/external/northamerica/part_cracked_hashes.txt", "r")
-ntds_hashes = open("/Users/bortiz/Documents/Projects/cerner/external/northamerica/ntds", "r")
+cracked_hashes = open("/Users/bortiz/Documents/Projects/part_cracked_hashes.txt", "r")
+ntds_hashes = open("/Users/bortiz/Documents/Projects/ntds", "r")
 
-sorted_creds = open("/Users/bortiz/Documents/Projects/cerner/external/northamerica/sorted_creds.txt", "w")
+sorted_creds = open("/Users/bortiz/Documents/Projects/sorted_creds.txt", "w")
 
 creds = []
 
